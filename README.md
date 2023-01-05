@@ -7,10 +7,11 @@
 ##### Development structure process:
 
 <ul>
-  <li></li>
-  <li> </li>
-  <li> </li>
-  <li> </li>
-  <li> </li>
-  <li> </li>
+  <li>Folder and project Structure</li> DONE!
+  <li>Components development (Navbar, footer)</li> DONE! (might suffer some alteration)
+  <li>Routing and pages creation</li>DONE
+  <li>Page 'HOME' development</li> IN DEVELOPMENT
+  <li>Page 'About' Development</li>IN DEVELOPMENT
+  <li>Blog Development</li>
+  <li>.... more to come ....</li>
 </ul>
