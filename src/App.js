@@ -10,13 +10,13 @@ import Home from './pages/Home/Home';
 function App() {
   return (
       <>
-      <Nav></Nav >
+      <Nav />
       <Routes> 
         <Route path='/' element={<Home />}></Route>
         <Route path='/about' element={<About />}></Route>
         <Route path='/blog' element={<Blog />}></Route>
       </Routes>
-      <Footer></Footer>
+      <Footer />
       </>
    
   );

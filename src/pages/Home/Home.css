@@ -14,6 +14,7 @@
   border-radius: 10px;
 }
 
+
 .board p span{
   color: var(--blue-heavy);
 }
@@ -50,6 +51,11 @@ object-fit: fill;
 image-rendering: optimizeQuality;
 box-shadow: 3px 3px 4px 5px var(--black-medium);
 }
+
+img:hover{
+  position: relative;
+  top: 1.3vh;
+  }
 
 @media (min-width: 1201px) {
   .board-text{
