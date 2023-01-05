@@ -10,7 +10,8 @@
   position: absolute;
   top: 15vh;
   left: 6vw;
-  box-shadow: 3px 3px 4px 5px var(--black-medium);
+  background: linear-gradient(var(--black-medium), var(--black-light) 45%);
+  box-shadow: 3px 3px 4px 5px var(--black-medium), 3px 3px 4px 5px var(--black-medium), 3px 3px 4px 5px var(--blue-heavy);
   border-radius: 10px;
 }
 
@@ -20,7 +21,7 @@
 }
 
 .board-title{
-  margin-top: 1vh;
+  margin: 1vh 0 0 1vw;
   color: var(--plain-red);
   font-size: 10vw;
 }
@@ -35,13 +36,20 @@
   position: absolute;
   top: 46vh;
   left: 60vw;
-  border-radius: 20%;
+  border-radius: 15%;
   height: 35vh;
   width: auto;
   background-attachment: fixed;
   transform: rotate(0.02turn);
   padding: 0 !important;
+  /* background: linear-gradient(var(--black-medium), var(--plain-red) 60%);
+  box-shadow: 3px 3px 4px 5px var(--black-medium), 3px 3px 4px 5px var(--plain-red); */
 }
+
+/* .profile-pic:hover{
+  background: linear-gradient(var(--black-medium), var(--blue-heavy) 60%);
+  box-shadow: 3px 3px 4px 5px var(--black-medium), 3px 3px 4px 5px var(--blue-heavy);
+} */
 
 img{
 max-width:100%;
@@ -49,12 +57,14 @@ max-height:100%;
 border-radius: inherit;
 object-fit: fill;
 image-rendering: optimizeQuality;
-box-shadow: 3px 3px 4px 5px var(--black-medium);
+/* box-shadow: 3px 3px 4px 5px var(--black-medium), 3px 3px 4px 5px var(--plain-red); */
 }
 
 img:hover{
   position: relative;
   top: 1.3vh;
+  right: 0.5vw;
+  box-shadow: 3px 3px 4px 5px var(--black-medium), 3px 3px 4px 5px var(--blue-heavy);
   }
 
 @media (min-width: 1201px) {
