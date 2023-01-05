@@ -1,0 +1,127 @@
+/* *** FONTS ***** */
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+:root{
+  /* Colors */
+  --black-light: #1A1818;
+  --black-medium: #100f0f;
+  --white-heavy: #EBECE8;
+  --blue-heavy: #24AECD;
+  --plain-red: #FF0000;
+  --bg-nav: #fef7e5;
+
+  /* Fonts */
+  --font-shadowsIntoLight: 'Shadows Into Light', cursive;
+  --font-bebas-neue: 'Bebas Neue', cursive;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-bebas-neue), sans-serif;
+  background-color: var(--black-light) ;
+}
+
+.title{
+  font-size: 55px;
+  color: var(--plain-red);
+  cursor: pointer;
+}
+
+ .NavLink{
+  list-style: none;
+  border: none;
+  text-decoration: none ;
+}
+
+.NavLink:hover {
+  list-style: none;
+  border: none;
+  text-decoration: none ;
+  color: var(--plain-red);
+}
+
+
+/* *** Footer *** */
+
+.footer{
+  bottom: 0 !important;
+  padding-top: 1.5vh !important;
+  padding-bottom: 1vh !important ;
+  height: 10vh;
+  background-color: var(--bg-nav);
+}
+
+.footer ul li {
+  list-style: none;
+  padding: 1.5vh;
+  margin: 0 auto;
+}
+
+.footer ul {
+  display: flex;
+  position: absolute;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+.footer-copywright {
+  text-align: center !important;
+  margin-top: 2.5vh;
+}
+
+.icon {
+  font-size: 35px;
+  color: var(--black-light);
+}
+
+.icons-container{
+  display: flex;
+  justify-content: center;
+  margin-top: 1vh;
+  padding: 0 !important;
+}
+
+.fluid-text {
+  font-size: 1.5vw;
+}
+
+@media (max-width: 600px) {
+  .title{
+    font-size: 35px;
+    padding-right: 10px;
+    margin-right: 5px;
+  }
+
+  .fluid-text {
+    font-size: 3vw;
+  }
+
+  .icon {
+    font-size: 3.5vw;
+    color: var(--black-light);
+  }
+
+  .footer{
+    padding-top: 0.5vh !important;
+    padding-bottom: 0 !important ;
+  }
+
+}
+
+@media (max-width: 767px){
+  .fluid-text {
+    font-size: 3.1vw;
+  }
+
+  .icon {
+    font-size: 4.5vw;
+    color: var(--black-light);
+  }
+  .footer{
+    padding-top: 0.4vh !important;
+    padding-bottom: 0 !important ;
+  }
+}

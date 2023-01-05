@@ -1,0 +1,123 @@
+.home {
+  height: 85vh;
+  color: red;
+  /* background: cross-fade(url('./../../assets/pattern-one.jpg') 55%); */
+}
+
+.board{
+  height: 65vh;
+  width: 55vw;
+  position: absolute;
+  top: 15vh;
+  left: 6vw;
+  box-shadow: 3px 3px 4px 5px var(--black-medium);
+  border-radius: 10px;
+}
+
+.board p span{
+  color: var(--blue-heavy);
+}
+
+.board-title{
+  margin-top: 1vh;
+  color: var(--plain-red);
+  font-size: 10vw;
+}
+
+.board-text{
+  color: var(--white-heavy);
+  text-align: center;
+  font-size: 3.5vw;
+}
+
+.profile-pic{
+  position: absolute;
+  top: 46vh;
+  left: 60vw;
+  border-radius: 20%;
+  height: 35vh;
+  width: auto;
+  background-attachment: fixed;
+  transform: rotate(0.02turn);
+  padding: 0 !important;
+}
+
+img{
+max-width:100%;
+max-height:100%;
+border-radius: inherit;
+object-fit: fill;
+image-rendering: optimizeQuality;
+box-shadow: 3px 3px 4px 5px var(--black-medium);
+}
+
+@media (min-width: 1201px) {
+  .board-text{
+    color: var(--white-heavy);
+    text-align: center;
+    font-size: 3.5vw;
+  }
+  
+}
+
+@media (max-width: 1200px){
+  .board-text{
+    color: var(--white-heavy);
+    text-align: center;
+    font-size: 5.8vw;
+  }
+}
+
+@media (max-width: 860px){
+  .board-text{
+    color: var(--white-heavy);
+    text-align: center;
+    font-size: 6.5vw;
+  }
+}
+
+@media (max-width: 760px){
+  .board-text{
+    color: var(--white-heavy);
+    text-align: center;
+    font-size: 6vw;
+  }
+  .board{
+    height: 58vh;
+    width: 55vw;
+    position: absolute;
+    top: 15vh;
+    left: 6vw;
+    box-shadow: 3px 3px 4px 5px var(--black-medium);
+    border-radius: 10px;
+  }
+}
+
+@media (max-width: 600px) {
+  .board{
+    height: 47vh;
+    width: 55vw;
+    position: absolute;
+    top: 15vh;
+    left: 6vw;
+    box-shadow: 3px 3px 4px 5px var(--black-medium);
+    border-radius: 10px;
+  }
+
+  .profile-pic{
+    position: absolute;
+    top: 55vh;
+    left: 60vw;
+    border-radius: 20%;
+    height: 23vh;
+    width: auto;
+    background-attachment: fixed;
+    transform: rotate(0.02turn);
+    padding: 0 !important;
+  }
+  .board-text{
+    color: var(--white-heavy);
+    text-align: center;
+    font-size: 7vw;
+  }
+}
