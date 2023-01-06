@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { NavLink } from 'react-bootstrap';
+import { NavLink } from 'react-router-dom';
 import { ReactComponent as Hamburger } from './../../assets/Hamburger.svg';
 import './Nav.css';
 
@@ -27,9 +27,9 @@ const Nav = () => {
 
             <div className={`nav-elements  ${showNavbar && 'active'}`}>
               <ul>
-                <li><NavLink to='/'>Home</NavLink></li>
-                <li><NavLink to='/contact'>Contact</NavLink></li>
-                <li><NavLink to='/blog'>Blog</NavLink></li>
+                <li><NavLink to="/">Home</NavLink></li>
+                <li><NavLink to="/about">About</NavLink></li>
+                <li><NavLink to="/blog">Blog</NavLink></li>
               </ul>
               
             </div>

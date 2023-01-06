@@ -111,7 +111,7 @@ img:hover{
 
 @media (max-width: 600px) {
   .board{
-    height: 47vh;
+    height: 49vh;
     width: 55vw;
     position: absolute;
     top: 15vh;
