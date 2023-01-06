@@ -11,7 +11,7 @@
   top: 15vh;
   left: 6vw;
   background: linear-gradient(var(--black-medium), var(--black-light) 45%);
-  box-shadow: 3px 3px 4px 5px var(--black-medium), 3px 3px 4px 5px var(--black-medium), 3px 3px 4px 5px var(--blue-heavy);
+  box-shadow: 3px 3px 4px 5px var(--black-medium), 3px 3px 4px 5px var(--black-medium);
   border-radius: 10px;
 }
 
@@ -35,8 +35,8 @@
 .profile-pic{
   position: absolute;
   top: 46vh;
-  left: 60vw;
-  border-radius: 15%;
+  left: 58vw;
+  border-radius: 10%;
   height: 35vh;
   width: auto;
   background-attachment: fixed;

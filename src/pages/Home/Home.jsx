@@ -11,7 +11,7 @@ export default function Home() {
           <div className="text-board">
             <h3 className='board-title'>Hello World,</h3>
             <p className='board-text'>My name is <span>Caue Francisco</span>. <br />
-             I'm a <span>front-end</span> developer and <span>this</span> is my space!
+             I'm a <span>front-end</span> developer. <br /> <span>This</span> is my space!
             </p>
           </div>
         </div>

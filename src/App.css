@@ -50,7 +50,7 @@ body{
   padding-bottom: 1vh !important ;
   height: 10vh;
   /* background-color: var(--bg-nav); */
-  background: linear-gradient(var(--black-light), var(--white-heavy) 35%);
+  background: linear-gradient(var(--black-light), var(--white-heavy) 15%);
   box-shadow: 5px 0 0 0 var(--bg-nav), 0 3px var(--black-medium);
 }
 
