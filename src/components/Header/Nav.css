@@ -14,7 +14,7 @@
   /* background-color: var(--black-light); */
   background: linear-gradient(var(--black-medium) 45%, var(--black-light));
   position: relative;
-  box-shadow: 2px 2px 2px 2px var(--black-medium), 2px 2px 2px 2px var(--black-medium);
+  /* box-shadow: 2px 2px 2px 2px var(--black-medium), 2px 2px 2px 2px var(--black-medium); */
   
 }
 
