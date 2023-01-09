@@ -1,4 +1,28 @@
 
 .blog{
-  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 85vh;
+  color: var(--white-heavy);
+
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.iconWorking{
+  font-size: 10vw;
+  color: var(--plain-red);
+}
+
+.titleBlog{
+  font-size: 4rem;
 }
