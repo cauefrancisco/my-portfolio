@@ -1,4 +1,7 @@
 .home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   min-height: 85vh;
   color: red;
   /* background: cross-fade(url('./../../assets/pattern-one.jpg') 55%); */
@@ -7,9 +10,10 @@
 .board{
   height: 65vh;
   width: 55vw;
-  position: absolute;
+  /* position: absolute;
   top: 15vh;
-  left: 6vw;
+  left: 6vw; */
+  margin: 0 auto;
   background: linear-gradient(var(--black-medium), var(--black-light) 45%);
   box-shadow: 3px 3px 4px 5px var(--black-medium), 3px 3px 4px 5px var(--black-medium);
   border-radius: 10px;
@@ -35,7 +39,7 @@
 .profile-pic{
   position: absolute;
   top: 46vh;
-  left: 58vw;
+  left: 68vw;
   border-radius: 10%;
   height: 35vh;
   width: auto;
