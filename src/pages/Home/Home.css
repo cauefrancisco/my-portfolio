@@ -105,29 +105,14 @@ img:hover{
   .board{
     height: 60vh;
     width: 55vw;
-    position: absolute;
-    top: 15vh;
-    left: 6vw;
+    margin: 0 auto;
     box-shadow: 3px 3px 4px 5px var(--black-medium);
     border-radius: 10px;
   }
-}
-
-@media (max-width: 600px) {
-  .board{
-    height: 49vh;
-    width: 55vw;
-    position: absolute;
-    top: 15vh;
-    left: 6vw;
-    box-shadow: 3px 3px 4px 5px var(--black-medium);
-    border-radius: 10px;
-  }
-
   .profile-pic{
     position: absolute;
-    top: 55vh;
-    left: 60vw;
+    top: 5vh;
+    left: 50vw;
     border-radius: 20%;
     height: 23vh;
     width: auto;
@@ -135,6 +120,35 @@ img:hover{
     transform: rotate(0.02turn);
     padding: 0 !important;
   }
+}
+
+@media (max-width: 600px) {
+  .board{
+    height: 60vh;
+    width: 55vw;
+    margin: 0 auto;
+    box-shadow: 3px 3px 4px 5px var(--black-medium);
+    border-radius: 10px;
+  }
+
+  .profile-pic{
+    position: absolute;
+    top: 60vh;
+    left: 40vw;
+    border-radius: 20%;
+    height: 23vh;
+    width: 23vw;
+    border-radius: 50%;
+    object-fit: cover;
+    background-attachment: fixed;
+    transform: rotate(0.01turn);
+    padding: 0 !important;
+  }
+  .profile{
+    object-fit: cover;
+    border-radius: 50%;
+  }
+
   .board-text{
     color: var(--white-heavy);
     text-align: center;

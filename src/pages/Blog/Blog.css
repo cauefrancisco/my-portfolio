@@ -21,8 +21,26 @@
 .iconWorking{
   font-size: 10vw;
   color: var(--plain-red);
+  animation: slidein 1s infinite;
+}
+
+@keyframes slidein {
+  from {
+    transform: rotate(0);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 .titleBlog{
   font-size: 4rem;
 }
+
+@media(max-width: 600px){
+  .titleBlog{
+    font-size: 2rem;
+  }
+}
+

@@ -20,6 +20,7 @@
 
 .logo {
   /*  */
+  
 }
 
 .menu-icon {
@@ -27,6 +28,7 @@
 }
 
 .nav-elements {
+  margin-top: 1vh;
 }
 
 .nav-elements ul {
