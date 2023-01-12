@@ -46,6 +46,7 @@
   background-attachment: fixed;
   transform: rotate(0.02turn);
   padding: 0 !important;
+  
   /* background: linear-gradient(var(--black-medium), var(--plain-red) 60%);
   box-shadow: 3px 3px 4px 5px var(--black-medium), 3px 3px 4px 5px var(--plain-red); */
 }
@@ -59,7 +60,7 @@ img{
 max-width:100%;
 max-height:100%;
 border-radius: inherit;
-object-fit: fill;
+object-fit: cover;
 image-rendering: optimizeQuality;
 /* box-shadow: 3px 3px 4px 5px var(--black-medium), 3px 3px 4px 5px var(--plain-red); */
 }
@@ -153,5 +154,9 @@ img:hover{
     color: var(--white-heavy);
     text-align: center;
     font-size: 7vw;
+  }
+
+  .typewriter{
+    font-size: 15vw;
   }
 }
