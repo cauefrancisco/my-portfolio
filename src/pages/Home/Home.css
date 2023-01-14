@@ -17,6 +17,7 @@
   background: linear-gradient(var(--black-medium), var(--black-light) 45%);
   box-shadow: 3px 3px 4px 5px var(--black-medium), 3px 3px 4px 5px var(--black-medium);
   border-radius: 10px;
+  /* z-index: 2; */
 }
 
 
@@ -36,41 +37,26 @@
   font-size: 3.5vw;
 }
 
-.profile-pic{
+/* .profile-pic{
   position: absolute;
   top: 46vh;
   left: 68vw;
-  border-radius: 10%;
+  border-radius: 50rem;
   height: 35vh;
   width: auto;
   background-attachment: fixed;
-  transform: rotate(0.02turn);
-  padding: 0 !important;
-  
-  /* background: linear-gradient(var(--black-medium), var(--plain-red) 60%);
-  box-shadow: 3px 3px 4px 5px var(--black-medium), 3px 3px 4px 5px var(--plain-red); */
+  /* transform: rotate(0.02turn);
+  padding: 10px !important;
 }
-
-/* .profile-pic:hover{
-  background: linear-gradient(var(--black-medium), var(--blue-heavy) 60%);
-  box-shadow: 3px 3px 4px 5px var(--black-medium), 3px 3px 4px 5px var(--blue-heavy);
-} */
 
 img{
 max-width:100%;
 max-height:100%;
-border-radius: inherit;
-object-fit: cover;
-image-rendering: optimizeQuality;
-/* box-shadow: 3px 3px 4px 5px var(--black-medium), 3px 3px 4px 5px var(--plain-red); */
-}
+padding: 10px;
+border-radius: 100rem;
+} */
 
-img:hover{
-  position: relative;
-  top: 1.3vh;
-  right: 0.5vw;
-  box-shadow: 3px 3px 4px 5px var(--black-medium), 3px 3px 4px 5px var(--blue-heavy);
-  }
+
 
 @media (min-width: 1201px) {
   .board-text{
@@ -110,17 +96,6 @@ img:hover{
     box-shadow: 3px 3px 4px 5px var(--black-medium);
     border-radius: 10px;
   }
-  .profile-pic{
-    position: absolute;
-    top: 5vh;
-    left: 50vw;
-    border-radius: 20%;
-    height: 23vh;
-    width: auto;
-    background-attachment: fixed;
-    transform: rotate(0.02turn);
-    padding: 0 !important;
-  }
 }
 
 @media (max-width: 600px) {
@@ -130,24 +105,6 @@ img:hover{
     margin: 0 auto;
     box-shadow: 3px 3px 4px 5px var(--black-medium);
     border-radius: 10px;
-  }
-
-  .profile-pic{
-    position: absolute;
-    top: 60vh;
-    left: 40vw;
-    border-radius: 20%;
-    height: 23vh;
-    width: 23vw;
-    border-radius: 50%;
-    object-fit: cover;
-    background-attachment: fixed;
-    transform: rotate(0.01turn);
-    padding: 0 !important;
-  }
-  .profile{
-    object-fit: cover;
-    border-radius: 50%;
   }
 
   .board-text{

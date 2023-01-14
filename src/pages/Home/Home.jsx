@@ -1,6 +1,5 @@
 import React from 'react';
 import TypeWriterEffect from 'react-typewriter-effect';
-// import Profile from './../../assets/profile.png';
 import './Home.css';
 
 
@@ -36,24 +35,6 @@ export default function Home() {
           <img className='profile' src={Profile} alt="profile" />
         </div> */}
         </div>
-
-
-        {/* <TypeWriterEffect
-        textStyle={{
-          fontWeight: 500,
-          fontSize: '2dvw',
-        }}
-        startDelay={2000}
-        cursorColor="#3F3D56"
-        multiText={[
-          'Hello World,',
-          'My name is Caue Francisco',
-          "I'm a front-end developer",
-        ]}
-        multiTextDelay={1500}
-        typeSpeed={50}
-        multiTextLoop={true}
-      /> */}
 
       </div>
     </div>

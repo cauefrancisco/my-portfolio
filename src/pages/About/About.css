@@ -1,4 +1,128 @@
 .about {
-  height: 85vh;
-  color: red;
+  display: flex;
+  min-height: 85vh;
+  height: auto;
+}
+
+.profile{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  min-height: 100dvh;
+  height: auto;
+  width: 100%;
+  /* border: 1px solid red; */
+      box-shadow: 3px 3px 4px 5px var(--black-medium);
+
+}
+
+  .profile-pic{
+    /* margin-top: 2dvh; */
+    height: 15rem;
+    width: 15rem;
+    border-radius: 50%;
+    /* transition: all 1s ease-in-out; */
+    /* box-shadow: 3px 3px 4px 5px var(--black-medium); */
+  }
+
+  .pic{
+    height: 15rem;
+    width: 15rem;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 3px 3px 4px 5px var(--black-medium);
+
+  }
+
+  .intro{
+    max-height: 25dvh;
+    max-width: 70%;
+    margin-top: 6vh;
+    /* border: 1px solid white; */
+    color: var(--white-heavy);
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .spanRed{
+    color: var(--plain-red);
+  }
+
+  .spanWhite{
+    color: var(--white-heavy);
+  }
+
+  .intro-title{
+    color: var(--plain-red);
+    text-align: center;
+  }
+
+  .iconsContainer{
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 1px solid green; */
+    border-radius: 10px;
+    max-width: 70%;
+    max-height: 15vh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    box-shadow: 3px 3px 4px 5px var(--black-medium);
+  }
+
+  .iconsList{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 4dvw;
+  }
+
+  .icons{
+    font-size: 5rem;
+    color: var(--white-heavy);
+  }
+
+  .icons:hover {
+    font-size: 5.3rem;
+    color: var(--blue-heavy);
+
+  }
+
+@media (max-width: 600px){
+
+  .profile{
+    min-height: 60dvh;
+  }
+
+  .profile-pic{
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+    /* transition: all 1s ease-in-out; */
+  }
+
+  .pic{
+    height: 10rem;
+    width: 10rem;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+
+  .intro{
+    font-size: 5vw;
+  }
+
+  .iconsList{
+    margin: 0 auto;
+    padding: 0 !important;
+    gap: 2dvw;
+  }
+
+  .icons{
+    font-size: 3rem;
+    color: var(--white-heavy);
+  }
 }
