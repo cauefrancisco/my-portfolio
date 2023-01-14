@@ -4,14 +4,6 @@
 
 <hr />
 
-##### Development structure process:
+![image](https://user-images.githubusercontent.com/79946161/212494165-1940ca64-89ab-48ff-b3d1-5aa99ec33dc1.png)
 
-<ul>
-  <li>Folder and project Structure</li> DONE! <br />
-  <li>Components development (Navbar, footer)</li> DONE! (might suffer some alteration)<br />
-  <li>Routing and pages creation</li>DONE<br />
-  <li>Page 'HOME' development</li> IN DEVELOPMENT<br />
-  <li>Page 'About' Development</li>IN DEVELOPMENT<br />
-  <li>Blog Development</li><br />
-  <li>.... more to come ....</li><br />
-</ul>
+![image](https://user-images.githubusercontent.com/79946161/212494120-44aaf153-3f93-4526-9649-383a07521604.png)
