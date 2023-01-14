@@ -44,7 +44,7 @@ export default function About() {
       </div>
 
       <div className="projects">
-        
+      {/* <GithubCards /> */}
       </div>
 
       <div className="resume">
