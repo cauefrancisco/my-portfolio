@@ -112,7 +112,12 @@
   }
 
   .intro{
+    max-height: 30dvh;
     font-size: 5vw;
+  }
+
+  .iconsContainer{
+    max-height: 22vh;
   }
 
   .iconsList{
