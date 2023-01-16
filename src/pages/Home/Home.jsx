@@ -1,6 +1,6 @@
 import React from 'react';
 import TypeWriterEffect from 'react-typewriter-effect';
-import './Home.css';
+import './Home.scss';
 
 
 export default function Home() {

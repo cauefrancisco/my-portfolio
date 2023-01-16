@@ -1,6 +1,6 @@
 import React from 'react';
 import { IoIosConstruct } from 'react-icons/io';
-import './Blog.css';
+import './Blog.scss';
 
 
 const Blog = () => {

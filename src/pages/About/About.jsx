@@ -4,7 +4,7 @@ import { IoIosCafe } from 'react-icons/io';
 import { SiMysql, SiTypescript } from 'react-icons/si';
 import { TbBrandAngular, TbBrandJavascript } from 'react-icons/tb';
 import profile from './../../assets/profile.png';
-import './About.css';
+import './About.scss';
 
 
 export default function About() {

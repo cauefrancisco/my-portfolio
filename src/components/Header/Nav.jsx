@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import { ReactComponent as Hamburger } from './../../assets/Hamburger.svg';
-import './Nav.css';
+import './Nav.scss';
 
 
 const Nav = () => {
