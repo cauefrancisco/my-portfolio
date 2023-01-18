@@ -48,7 +48,7 @@ body{
   bottom: 0 !important;
   padding-top: 1.5vh !important;
   padding-bottom: 1vh !important ;
-  height: auto;
+  min-height: 10dvh;
   /* background-color: var(--bg-nav); */
   background: linear-gradient(var(--black-light), var(--white-heavy) 15%);
   box-shadow: 5px 0 0 0 var(--bg-nav), 0 3px var(--black-medium);
@@ -75,14 +75,14 @@ body{
 }
 
 .icon {
-  font-size: 35px;
+  font-size: 1.5rem;
   color: var(--black-light);
 }
 
 .icons-container{
   display: flex;
   justify-content: center;
-  margin-top: 1vh;
+  margin-top: 0.5rem;
   padding: 0 !important;
 }
 
@@ -115,11 +115,27 @@ body{
 
 @media (max-width: 767px){
   .fluid-text {
-    font-size: 3.1vw;
+    font-size: 2.5vw;
   }
 
   .icon {
-    font-size: 4.5vw;
+    font-size: 2rem;
+    color: var(--black-light);
+  }
+  .footer{
+    padding-top: 0.4vh !important;
+    padding-bottom: 0 !important ;
+    
+  }
+}
+
+@media (max-width: 967px){
+  .fluid-text {
+    font-size: 2.5vw;
+  }
+
+  .icon {
+    font-size: 2rem;
     color: var(--black-light);
   }
   .footer{
