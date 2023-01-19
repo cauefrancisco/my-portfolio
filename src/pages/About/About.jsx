@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaDocker, FaNodeJs, FaReact, FaRegLaughSquint } from 'react-icons/fa';
+import { FaDocker, FaNodeJs, FaReact } from 'react-icons/fa';
 import { IoIosCafe } from 'react-icons/io';
 import { SiMysql, SiTypescript } from 'react-icons/si';
 import { TbBrandAngular, TbBrandJavascript } from 'react-icons/tb';
@@ -20,10 +20,10 @@ export default function About() {
         </div>
 
         <div className="intro col">
-          <h1 className='intro-title'>Hey!<IoIosCafe className='spanWhite'/> </h1>
+          <h1 className='intro-title'>Hey! <IoIosCafe className='spanWhite'/> </h1>
           <p>
-            I'm <span className='spanRed'>Caue Francisco</span>, a <span className='spanRed'>Front-end</span> <span className='spanWhite'>Software developer</span> . 
-            'been working in the industry for <span className='spanRed'>about 2 years</span>. Hopefully i've learnt something right <FaRegLaughSquint />
+            I'm Caue Francisco, a Front-end Software developer. 
+            I've been working in the industry for about 2 years.
           </p>
         </div>
         

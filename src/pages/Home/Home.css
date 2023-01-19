@@ -4,20 +4,15 @@
   align-items: center;
   min-height: 85vh;
   color: red;
-  /* background: cross-fade(url('./../../assets/pattern-one.jpg') 55%); */
 }
 
 .board{
-  height: 65vh;
+  min-height: 30dvh;
   width: 55vw;
-  /* position: absolute;
-  top: 15vh;
-  left: 6vw; */
   margin: 0 auto;
   background: linear-gradient(var(--black-medium), var(--black-light) 45%);
   box-shadow: 3px 3px 4px 5px var(--black-medium), 3px 3px 4px 5px var(--black-medium);
   border-radius: 10px;
-  /* z-index: 2; */
 }
 
 
@@ -36,26 +31,6 @@
   text-align: center;
   font-size: 3.5vw;
 }
-
-/* .profile-pic{
-  position: absolute;
-  top: 46vh;
-  left: 68vw;
-  border-radius: 50rem;
-  height: 35vh;
-  width: auto;
-  background-attachment: fixed;
-  /* transform: rotate(0.02turn);
-  padding: 10px !important;
-}
-
-img{
-max-width:100%;
-max-height:100%;
-padding: 10px;
-border-radius: 100rem;
-} */
-
 
 
 @media (min-width: 1201px) {
@@ -100,7 +75,7 @@ border-radius: 100rem;
 
 @media (max-width: 600px) {
   .board{
-    height: 60vh;
+    height: auto;
     width: 55vw;
     margin: 0 auto;
     box-shadow: 3px 3px 4px 5px var(--black-medium);

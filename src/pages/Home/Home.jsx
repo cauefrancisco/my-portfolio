@@ -1,16 +1,20 @@
 import React from 'react';
-import TypeWriterEffect from 'react-typewriter-effect';
+// import TypeWriterEffect from 'react-typewriter-effect';
+import About from './../About/About';
 import './Home.css';
 
 
 export default function Home() {
 
   return (
+    <>
+    <About />
+    
     <div className='home'>
       <div className="row">
 
         <div className="board">
-          <div className="text-board">
+          {/* <div className="text-board">
 
           <TypeWriterEffect
           className='typewriter'
@@ -30,13 +34,13 @@ export default function Home() {
         typeSpeed={50}
         multiTextLoop={true}
       />
-          </div>
-        {/* <div className="profile-pic">
-          <img className='profile' src={Profile} alt="profile" />
-        </div> */}
+          </div> */}
         </div>
 
       </div>
     </div>
+
+    
+    </>
   )
 }

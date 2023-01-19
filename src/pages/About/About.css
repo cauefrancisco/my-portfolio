@@ -1,7 +1,7 @@
 .about {
   display: flex;
   min-height: 85vh;
-  height: auto;
+  /* background-color: var(--white-heavy); */
 }
 
 .profile{
@@ -10,21 +10,17 @@
   align-items: center;
   justify-content: center;
   margin: 0 auto;
-  min-height: 100dvh;
-  height: auto;
+  min-height: 100%;
   width: 100%;
-  /* border: 1px solid red; */
-      box-shadow: 3px 3px 4px 5px var(--black-medium);
+  /* box-shadow: 3px 3px 4px 5px var(--black-medium); */
 
 }
 
   .profile-pic{
-    /* margin-top: 2dvh; */
+    margin-top: 6dvh;
     height: 15rem;
     width: 15rem;
     border-radius: 50%;
-    /* transition: all 1s ease-in-out; */
-    /* box-shadow: 3px 3px 4px 5px var(--black-medium); */
   }
 
   .pic{
@@ -37,13 +33,13 @@
   }
 
   .intro{
-    max-height: 25dvh;
-    max-width: 70%;
-    margin-top: 6vh;
-    /* border: 1px solid white; */
+    height: 25dvh;
+    width: 40%;
+    margin: 6dvh 0 2dvh 0;
     color: var(--white-heavy);
     font-size: 2rem;
-    text-align: center;
+    text-align: justify;
+    text-justify: newspaper;
   }
 
   .spanRed{
@@ -55,16 +51,17 @@
   }
 
   .intro-title{
-    color: var(--plain-red);
+    color: var(--blue-heavy);
     text-align: center;
   }
 
   .iconsContainer{
     display: flex;
     flex-wrap: wrap;
-    /* border: 1px solid green; */
+    margin-bottom: 4dvh;
     border-radius: 10px;
-    max-width: 70%;
+    max-width: 80%;
+    width: fit-content;
     max-height: 18vh;
     text-align: center;
     justify-content: center;
@@ -78,46 +75,73 @@
     flex-wrap: wrap;
     list-style: none;
     gap: 4dvw;
+    margin-top: 1dvh;
   }
 
   .icons{
-    font-size: 5rem;
+    font-size: 3rem;
     color: var(--white-heavy);
   }
 
   .icons:hover {
-    font-size: 5.3rem;
+    font-size: 5.1rem;
     color: var(--blue-heavy);
-
   }
 
 @media (max-width: 600px){
 
-  .profile{
-    min-height: 60dvh;
-  }
-
   .profile-pic{
-    height: 10rem;
-    width: 10rem;
+    height: 8rem;
+    width: 8rem;
     border-radius: 50%;
-    /* transition: all 1s ease-in-out; */
   }
 
   .pic{
-    height: 10rem;
-    width: 10rem;
+    height: 8rem;
+    width: 8rem;
     object-fit: cover;
     border-radius: 50%;
   }
 
   .intro{
-    max-height: 30dvh;
+    width: 80%;
+    max-height: 20dvh;
     font-size: 5vw;
+    height: max-content;
+    margin-bottom: 2dvh;
   }
 
   .iconsContainer{
-    max-height: 22vh;
+    min-height: fit-content block;
+    /* height: auto; */
+  }
+
+  .iconsList{
+    margin: 0 auto;
+    padding: 0 !important;
+    gap: 1dvw;
+  }
+
+  .icons{
+    margin-top: 1dvh;
+    font-size: 1rem;
+    color: var(--white-heavy);
+  }
+
+  .icons:hover {
+    font-size: inherit;
+    color: var(--blue-heavy);
+  }
+}
+
+@media (max-width: 767px){
+  .intro{
+    height: auto;
+    font-size: 2rem;
+  }
+
+  .iconsContainer{
+    min-height: 20dvh;
   }
 
   .iconsList{
@@ -127,7 +151,39 @@
   }
 
   .icons{
-    font-size: 3rem;
+    font-size: 2rem;
     color: var(--white-heavy);
+  }
+
+  .icons:hover {
+    font-size: 2.3rem;
+    color: var(--blue-heavy);
+  }
+}
+
+@media (max-width: 967px){
+  .intro{
+    max-height: auto;
+    font-size: 5vw;
+  }
+
+  .iconsContainer{
+    height: auto;
+  }
+
+  .iconsList{
+    margin: 0 auto;
+    padding: 0 !important;
+    gap: 2dvw;
+  }
+
+  .icons{
+    font-size: 2.5rem;
+    color: var(--white-heavy);
+  }
+
+  .icons:hover {
+    font-size: 3.3rem;
+    color: var(--blue-heavy);
   }
 }
